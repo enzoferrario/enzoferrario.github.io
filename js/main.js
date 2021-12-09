@@ -3,7 +3,7 @@
     quotes[0] = "Variety is the spice of life";
     quotes[1] = "You can't judge a book by its cover, and you can't judge a library by its books";
     quotes[2] = "Comedy = Tragedy + Time";
-    quotes[3] = "The world is your oyster! Let's just hope you arent allergic to seafood";
+    quotes[3] = "The world is your oyster! Let's just hope you aren't allergic to seafood";
     quotes[4] = "You can catch flies with honey, but you'll catch more honeys being fly";
     quotes[5] = "You never notice glass until it breaks";
     quotes[6] = "What's the difference between a literalist and a kleptomaniac? One takes things literally and the other takes things, literally";
