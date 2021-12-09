@@ -1,0 +1,193 @@
+/*auto-generated reset css*/
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+html {
+  color: #111;
+  background: #FFF;
+  line-height: 1.1em;
+  font-size: 1.25em;
+  font-family: "Times New Roman", Arial, sans-serif;
+  background-color: #F5F5DC;
+  padding-left: 0.1875em;
+}
+
+/* @media screen and (min-width: 800px) {
+ .navigation {
+	 justify-content: center;
+	 flex-direction: row;
+ }
+} */
+
+h1 {
+  color: #092;
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+  box-sizing: border-box;
+  background-color: #111;
+  padding: 1em;
+  text-align: center;
+  width: auto;
+}
+
+.navigation {
+  font-family: Hahmlet, "Times New Roman", sans-serif;
+  text-align: center;
+  padding-bottom: 1em;
+  padding: 0.5em;
+  background-color: #F5F5EE;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.navigation li {
+  display: inline;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.navigation li:hover {
+  background-color: #092;
+}
+
+h2 {
+  text-indent: 0.125em;
+  padding-top: 0.5em;
+  font-size: 1.625em;
+  padding-bottom: 0.5em;
+}
+
+p, ol {
+  padding-bottom: 1em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+article {
+  border-top: #333;
+  border-style: solid;
+  padding-bottom: 0.5em;
+}
+
+.images {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+figure {
+  border: 0.0625em;
+  margin: 1.25em;
+  position: relative;
+  display: block;
+}
+
+figcaption {
+  color: #EEE;
+  background: rgba(20, 20, 20, 0.5);
+  position: relative;
+  text-align: center;
+}
+
+footer {
+  padding-top: 2em;
+}
+
+
+#school-pos {
+  list-style-type: none;
+  font-style: italic;
+}
+
+#resume {
+  list-style-type: none;
+}
+
+#col-plan {
+  padding-top: 1.5em;
+}
+
+#last-sk {
+  padding-bottom: 1.25em;
+}
+
+#skill {
+  font-weight: bold;
+}
+
+#hobbies {
+  list-style-type: none;
+}
+
+#game {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    text-align: center;
+  }
+
+  .navigation li {
+    text-align: center;
+    background-color: #F5F5EE;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3125em;
+  }
+
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #fox {
+    display: flex;
+    justify-content: center;
+  }
+
+  figcaption {
+    display: block;
+  }
+
+}
+
+
+
+
+/** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */
+/*
+.g body { position: relative; }
+
+.g body::after { background: url('data:image/svg+xml;utf8,<svg height="22" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
+content: "";
+display: block;
+pointer-events: none;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 9999;
+position: absolute;
+}
+
+.g body:active::after { display: none; }
+*/
