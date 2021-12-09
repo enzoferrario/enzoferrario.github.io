@@ -1,12 +1,11 @@
-<script type="text/javascript">
   writeRandomQuote = function () {
     var quotes = new Array();
-    quotes[0] = "Action is the real measure of intelligence.";
-    quotes[1] = "Baseball has the great advantage over cricket of being sooner ended.";
-    quotes[2] = "Every goal, every action, every thought, every feeling one experiences, whether it be consciously or unconsciously known, is an attempt to increase one's level of peace of mind.";
-    quotes[3] = "A good head and a good heart are always a formidable combination.";
+    quotes[0] = "Variety is the spice of life";
+    quotes[1] = "You can't judge a book by its cover, and you can't judge a library by its books";
+    quotes[2] = "Comedy = Tragedy + Time";
+    quotes[3] = "The world is your oyster! Let's just hope you arent allergic to seafood";
+    quotes[4] = "You can catch flies with honey, but you'll catch more honeys being fly";
     var rand = Math.floor(Math.random()*quotes.length);
     document.write(quotes[rand]);
   }
-  writeRandomQuote();
-</script>
+writeRandomQuote();
